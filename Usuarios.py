@@ -3,12 +3,8 @@
 Universidade Federal de Pernambuco (UFPE) (http://www.ufpe.br)
 Centro de Informática (CIn) (http://www.cin.ufpe.br)
 Graduando em Sistemas de Informação
-IF968 - Programação 1
-Autor: Josenildo Lopes de Souza (jls2)
-Email: jls2@cin.ufpe.br
-Copyright(c) 2018 Josenildo Lopes de Souza
+Copyright(c) 2018 Josenildo 
 """
-
 
 """
 Esse script contém funções para realizar o cadastro dos usuarios, remover um usuario desejado
@@ -64,7 +60,6 @@ def remover_usuario(dic_usuario):
                 continua=True
             elif entrada=="n":
                 continua=False
-
 
 
 def alterar_nivel_usuario(dic_usuario):
