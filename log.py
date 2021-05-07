@@ -3,7 +3,7 @@
 Universidade Federal de Pernambuco (UFPE) (http://www.ufpe.br)
 Centro de Informática (CIn) (http://www.cin.ufpe.br)
 
-Copyright(c) 2018 Josenildo 
+Copyright(c) Josenildo 
 """
 
 """

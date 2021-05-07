@@ -2,8 +2,8 @@
 """
 Universidade Federal de Pernambuco (UFPE) (http://www.ufpe.br)
 Centro de Informática (CIn) (http://www.cin.ufpe.br)
-Graduando em Sistemas de Informação
-Copyright(c) 2018 Josenildo 
+
+Copyright(c) Josenildo 
 """
 
 """
