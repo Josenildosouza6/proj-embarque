@@ -17,7 +17,6 @@ as suas informações, como cpf, nome data de nascimentos etc.
 dic_elementos = {}
 
 
-
 def cadastrar_elementos(dic_elementos):
     '''
     Faz uma varredura no dicionario de elementos, se o cpf do tripulante ja existir no mesmo
@@ -55,8 +54,10 @@ def buscar_elementos(dic_elementos):
 
         if elemento_buscado in dic_elementos:
             print(dic_elementos[elemento_buscado])
-#            loog = login + str(data()) + 'Busca de tripulante efetuada'
-#            log(loog)
+            '''
+            loog = login + str(data()) + 'Busca de tripulante efetuada'
+            log(loog)
+            '''
             escolha = input("Deseja outro Tripulante? (s/n) ")
             if escolha == "s":
                 continua = True
@@ -71,15 +72,13 @@ def buscar_elementos(dic_elementos):
                 continua = False
 
 
-
 def buscar_cargo(dic_elementos):
     '''
     Faz uma varredura no dicionario de elementos para buscar o tripulante atraves do cargo
     se o cargo não constar no dicionario de elementos, mostra os dados referentes ao tripulante buscado, se não existir mostra uma 
     de que o tripulante não existe.
     '''
-    
-    
+        
     continua = True
     while continua == True:
         resultados = []
@@ -94,9 +93,7 @@ def buscar_cargo(dic_elementos):
             if entrada == "s":
                 continua = True
             else:
-                continua = False
-            
-    
+                continua = False               
         else:
             for i in resultados:
                 print(i)                
@@ -159,7 +156,6 @@ def mostrar_todos_os_elementos(dic_elementos):
             print(dic_elementos[chave])
             
 
-###########################################
 def ordenar_elementos(dic_elementos):
     '''
     Essa função varre o dicionario atraves da chave "cpf", adiciona taos os cpf 
@@ -190,5 +186,3 @@ def impressao_ordenada(dic_elementos):
         arq.write("Passaporte: "+ dic_elementos[chave][5]+"\n")
         arq.write("Matricula: "+ dic_elementos[chave][6]+"\n\n")
     arq.close()
-  
-        
