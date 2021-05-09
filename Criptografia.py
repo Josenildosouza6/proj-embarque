@@ -16,6 +16,7 @@ dic_elementos = {}
 dic_usuario = {}
 dic_usuario = {'adm':('adm', '0')}
 
+
 def recuperar_chaves(arq):
     """Recupera os valores que constam nos atquivos 'CahvesPublicas e Privadas"""
     
@@ -78,6 +79,7 @@ def criptografar_usuarios(dic_usuario, arq):
         arquivo.write(str(dic_usuario[chave][1]))
         arquivo.write("\n")
     arquivo.close()
+
 
 def decifrar_usuarios(arq, dic_usuario):
     """
