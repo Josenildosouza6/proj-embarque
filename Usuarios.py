@@ -40,6 +40,7 @@ def cadastrar_usuario(dic_usuario):
            dic_usuario[login]=(senha, nivel_usuario)
            continua = False
 
+
 def remover_usuario(dic_usuario):
     '''
     Essa função varre o dicionario atraves da chave "login", se encontar o login solicitado ela
