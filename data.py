@@ -20,7 +20,9 @@ def data():
     ano = hoje.year
     
     return (str(dia)+"/"+str(mes)+"/"+str(ano))
-
+'''
+mostra a data, dia, mês e ano
+'''
 
 def hora():
 
@@ -30,4 +32,6 @@ def hora():
     segundos=agora.second
 
     return(str(horas)+":"+str(minutos)+":"+str(segundos))
-    
+'''
+mostra a horas, minutos, e segundos
+'''
