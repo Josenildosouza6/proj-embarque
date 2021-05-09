@@ -172,8 +172,8 @@ Escolha a opçao:
                 el.remover_elementos(dic_elementos)
                 
             elif opcao == "6":
- #               log.write(usuario+":"+" "+"Fez atualizaçao de tripulante"+" "+ dt.hora()+" "+ dt.data())
- #               log.write("\n")
+#                log.write(usuario+":"+" "+"Fez atualizaçao de tripulante"+" "+ dt.hora()+" "+ dt.data())
+#                log.write("\n")
                 el.atualizar_elementos(dic_elementos)
                             
             elif opcao == "7":
@@ -301,7 +301,7 @@ def sair():
     Criptografa no "arquivo usuarios.txt" e "elementos.txt" as ações feitas tanto no dicionario de usuario como no de 
     elementos respectivamente
     '''
-    print("Salvando dados...")#função para atualizar os dados
+    print("Salvando dados...")  #função para atualizar os dados
     cp.criptografar_usuarios(dic_usuario, "usuarios.txt")
     cp.criptografar_elementos(dic_elementos, "elementos.txt")
     print("Fechando Programa")
@@ -377,5 +377,3 @@ def main():
 main()
 
 log.close()
-
-
