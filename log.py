@@ -77,7 +77,6 @@ def ler_data(data):
     return lista_acao
 
 
-
 '''
 def buscar_log():
     opcao = input("Digite a opção desejada de busca pelo log 1-Data, 2-Usuario ")
@@ -121,7 +120,6 @@ def comparar_usuarios():
     return lista_user
 
 
-
 def recuperar_arquivo(string):
     arq = open("log.txt", "a")
     agora=datetime.datetime.now()
@@ -129,8 +127,6 @@ def recuperar_arquivo(string):
     arquivo.write("{}: {} as {} {}\n".format(usuario, acao()+" "+ dt.hora()+" "+ dt.data())
     arq.close()
     
-
-
    
 for c in string:
         if c != '#' and c != '\n':
@@ -143,7 +139,6 @@ for c in string:
     return texto
 
 
-    
 def recuperar_data(palavra):
     data = ""
     for i in reversed(palavra):
@@ -152,8 +147,7 @@ def recuperar_data(palavra):
         else:
             return data[-1::-1]
 
-        
-    
+            
 def recuperar_usuario(palavra):
     palavra = open("log.txt", "r")
     usuario = ""
@@ -162,4 +156,4 @@ def recuperar_usuario(palavra):
             usuario +=i
         else:
             return usuario
- '''
+'''
